@@ -1,0 +1,48 @@
+.searchActon {
+    color: #fff;
+    display: inline-block;
+    margin: 0 .5rem;
+    font-size: .7rem;
+    transition: .3s ease all;
+
+    &:hover {
+        color: #ddd;
+        transform: rotateZ(15deg);
+    }
+
+    @media only screen and (max-width:600px) {
+        font-size: 1rem;
+    }
+}
+
+.servicesItems {
+    background-color: #08001A;
+    padding: 1rem;
+    margin: 15px 0;
+    text-align: center;
+    min-height: 250px;
+    border-radius: 3px;
+    img{
+        display: inline-block;
+        margin: 0 auto;
+        max-width: 100px;
+    }
+
+    h4 {
+        color: #00EDFF;
+        font-size: .9rem;
+        margin: .75rem 0;
+
+    }
+
+    p {
+        color: #fff;
+        font-size: .7rem;
+        line-height: 1.8;
+        font-weight: 100;
+    }
+}
+
+.bookItem{
+    
+}
